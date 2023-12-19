@@ -1,7 +1,7 @@
 using NetworkingLibrary;
 public class ScenePacket : BasePacket
 {
-    public string sceneName;
+    public string sceneName = "MainScene";
 
     public ScenePacket()
     {
