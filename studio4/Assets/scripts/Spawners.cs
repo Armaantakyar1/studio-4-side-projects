@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RandomXSpawn : MonoBehaviour
+public class Spawners : MonoBehaviour
 {
     [SerializeField] GameObject objectToSpawn;
     [SerializeField] float minX = -5f;
